@@ -2,34 +2,34 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-03T14:36:46 PST" name="Default suite" finished-at="2026-03-03T14:36:47 PST" duration-ms="1517">
+  <suite started-at="2026-03-03T14:56:11 PST" name="Default suite" finished-at="2026-03-03T14:56:12 PST" duration-ms="1551">
     <groups>
     </groups>
-    <test started-at="2026-03-03T14:36:46 PST" name="Default test" finished-at="2026-03-03T14:36:47 PST" duration-ms="1517">
+    <test started-at="2026-03-03T14:56:11 PST" name="Default test" finished-at="2026-03-03T14:56:12 PST" duration-ms="1551">
       <class name="HomePageTests">
-        <test-method signature="Test1()[pri:0, instance:HomePageTests@64ba3208]" started-at="2026-03-03T14:36:46 PST" name="Test1" finished-at="2026-03-03T14:36:47 PST" duration-ms="1161" status="FAIL">
+        <test-method signature="Test1()[pri:0, instance:HomePageTests@64ba3208]" started-at="2026-03-03T14:56:11 PST" name="Test1" finished-at="2026-03-03T14:56:12 PST" duration-ms="1180" status="FAIL">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[element click intercepted: Element <a href="https://www.amaysim.com.au/sim-plans" class="plan-table-heading-link" aria-label="...">Shop all plans</a> is not clickable at point (874, 504). Other element would receive the click: <iframe src="" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" data-tags="right" title="Usabilla Feedback Button" class="usabilla-live-button" id="usabilla_live_button_container_iframe694641921"></iframe>
+              <![CDATA[element click intercepted: Element <a href="https://www.amaysim.com.au/sim-plans" class="plan-table-heading-link" aria-label="...">Shop all plans</a> is not clickable at point (874, 504). Other element would receive the click: <iframe src="" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" data-tags="right" title="Usabilla Feedback Button" class="usabilla-live-button" id="usabilla_live_button_container_iframe296617231"></iframe>
   (Session info: chrome=145.0.7632.117)
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [395c0f225279783835ea04bceab35db3, clickElement {id=f.8D44B79C22DA58EE485669454CF35F3A.d.DB7A38751488FE6BEDC498148C87A943.e.32}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52794}, goog:processID: 22136, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52794/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (395c0f225279783835ea04bceab35db3)] -> xpath: //*[@id="a-variant"]/div/section/div[1]/a]
-Session ID: 395c0f225279783835ea04bceab35db3]]>
+Command: [2655cdb7f9b2c02f9a2d717148ad739f, clickElement {id=f.917494A53623EEAE55ACDF96C3D420F5.d.592797F95699F78F8F01405BD5B34913.e.32}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56267}, goog:processID: 22856, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56267/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2655cdb7f9b2c02f9a2d717148ad739f)] -> xpath: //a[starts-with(text(), 'Shop all plans')]]
+Session ID: 2655cdb7f9b2c02f9a2d717148ad739f]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="https://www.amaysim.com.au/sim-plans" class="plan-table-heading-link" aria-label="...">Shop all plans</a> is not clickable at point (874, 504). Other element would receive the click: <iframe src="" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" data-tags="right" title="Usabilla Feedback Button" class="usabilla-live-button" id="usabilla_live_button_container_iframe694641921"></iframe>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="https://www.amaysim.com.au/sim-plans" class="plan-table-heading-link" aria-label="...">Shop all plans</a> is not clickable at point (874, 504). Other element would receive the click: <iframe src="" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" data-tags="right" title="Usabilla Feedback Button" class="usabilla-live-button" id="usabilla_live_button_container_iframe296617231"></iframe>
   (Session info: chrome=145.0.7632.117)
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [395c0f225279783835ea04bceab35db3, clickElement {id=f.8D44B79C22DA58EE485669454CF35F3A.d.DB7A38751488FE6BEDC498148C87A943.e.32}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52794}, goog:processID: 22136, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52794/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (395c0f225279783835ea04bceab35db3)] -> xpath: //*[@id="a-variant"]/div/section/div[1]/a]
-Session ID: 395c0f225279783835ea04bceab35db3
+Command: [2655cdb7f9b2c02f9a2d717148ad739f, clickElement {id=f.917494A53623EEAE55ACDF96C3D420F5.d.592797F95699F78F8F01405BD5B34913.e.32}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56267}, goog:processID: 22856, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56267/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2655cdb7f9b2c02f9a2d717148ad739f)] -> xpath: //a[starts-with(text(), 'Shop all plans')]]
+Session ID: 2655cdb7f9b2c02f9a2d717148ad739f
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -73,7 +73,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method is-config="true" signature="TestTearDown()[pri:0, instance:HomePageTests@64ba3208]" started-at="2026-03-03T14:36:47 PST" name="TestTearDown" finished-at="2026-03-03T14:36:47 PST" duration-ms="318" status="PASS">
+        <test-method is-config="true" signature="TestTearDown()[pri:0, instance:HomePageTests@64ba3208]" started-at="2026-03-03T14:56:12 PST" name="TestTearDown" finished-at="2026-03-03T14:56:12 PST" duration-ms="329" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestTearDown -->

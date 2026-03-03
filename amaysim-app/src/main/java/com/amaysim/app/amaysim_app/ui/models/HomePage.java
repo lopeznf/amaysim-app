@@ -20,7 +20,7 @@ public class HomePage extends BasePage {
 	}
 	
 	public void ClickShopAllPlansLink() { 
-		shopAllPlansLink = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"a-variant\"]/div/section/div[1]/a")));
+		shopAllPlansLink = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[starts-with(text(), 'Shop all plans')]")));
 		shopAllPlansLink.click();
 	}
 	

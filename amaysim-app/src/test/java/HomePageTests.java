@@ -14,6 +14,8 @@ public class HomePageTests {
 		System.out.println("Test1 here");
 		
 		homePage.ClickShopAllPlansLink();
+
+		System.out.println("Landed at " + homePage.chromeDriver.getCurrentUrl());		
 	}
 	
 	@AfterTest
