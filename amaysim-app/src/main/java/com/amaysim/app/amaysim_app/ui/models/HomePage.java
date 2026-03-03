@@ -1,22 +1,27 @@
 package com.amaysim.app.amaysim_app.ui.models;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import com.amaysim.app.amaysim_app.ui.models.base.BasePage;
 
 public class HomePage extends BasePage {
 	
-	ChromeDriver chromeDriver = new ChromeDriver();
-	WebElement shopAllPlansLink = chromeDriver.findElement(By.xpath("//a[@label='Shop all plans']"));
+	WebDriverWait wait;
+	WebElement shopAllPlansLink;
 
-	@Override
-	public void NavigateToUrl() {
-		chromeDriver.navigate().to("https://www.amaysim.com.au/sim-plans");
+	public HomePage() {
+		NavigateToUrl("https://www.amaysim.com.au/");
+		wait = new WebDriverWait(chromeDriver, Duration.ofSeconds(30));
 	}
 	
-	public void ClickShopAllPlansLink() {
+	public void ClickShopAllPlansLink() { 
+		shopAllPlansLink = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"a-variant\"]/div/section/div[1]/a")));
 		shopAllPlansLink.click();
 	}
+	
 }
