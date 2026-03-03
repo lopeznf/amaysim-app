@@ -10,7 +10,7 @@ public class HomePageTests {
 	}
 	
 	@Test
-	public void Test1() {
+	public void TestShopAllPlansLink() {
 		System.out.println("Test1 here");
 		
 		homePage.ClickShopAllPlansLink();
