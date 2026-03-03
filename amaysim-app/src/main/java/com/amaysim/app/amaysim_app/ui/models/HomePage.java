@@ -16,11 +16,11 @@ public class HomePage extends BasePage {
 
 	public HomePage() {
 		NavigateToUrl("https://www.amaysim.com.au/");
-		wait = new WebDriverWait(chromeDriver, Duration.ofSeconds(30));
+		wait = new WebDriverWait(chromeDriver, Duration.ofSeconds(60));
 	}
 	
 	public void ClickShopAllPlansLink() { 
-		shopAllPlansLink = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[starts-with(text(), 'Shop all plans')]")));
+		shopAllPlansLink = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href='https://www.amaysim.com.au/sim-plans']")));
 		shopAllPlansLink.click();
 	}
 	
